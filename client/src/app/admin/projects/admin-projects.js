@@ -78,13 +78,14 @@ angular.module('admin-projects', [
   };
 
   $scope.selTeamMember = undefined;
+///////*****6-2 */
 
-  $scope.addTeamMember = function() {
-    if($scope.selTeamMember) {
-      $scope.project.teamMembers.push($scope.selTeamMember);
-      $scope.selTeamMember = undefined;
-    }
-  };
+  // $scope.addTeamMember = function() {
+  //   if($scope.selTeamMember) {
+  //     $scope.project.teamMembers.push($scope.selTeamMember);
+  //     $scope.selTeamMember = undefined;
+  //   }
+  // };
 
   $scope.removeTeamMember = function(teamMember) {
     var idx = $scope.project.teamMembers.indexOf(teamMember);
