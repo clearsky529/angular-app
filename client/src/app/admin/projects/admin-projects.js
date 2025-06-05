@@ -97,4 +97,50 @@ angular.module('admin-projects', [
       $scope.selTeamMember = undefined;
     }
   };
+
+   $scope.removeTeamMember = function(teamMember) {
+    var idx = $scope.project.teamMembers.indexOf(teamMember);
+    if(idx >= 0) {
+      $scope.project.teamMembers.splice(idx, 1);
+    }
+    // If we have removed the team member that is currently selected then clear this object
+    if($scope.selTeamMember === teamMember) {
+      $scope.selTeamMember = undefined;
+    }
+  };
+
+   $scope.removeTeamMember = function(teamMember) {
+    var idx = $scope.project.teamMembers.indexOf(teamMember);
+    if(idx >= 0) {
+      $scope.project.teamMembers.splice(idx, 1);
+    }
+    // If we have removed the team member that is currently selected then clear this object
+    if($scope.selTeamMember === teamMember) {
+      $scope.selTeamMember = undefined;
+    }
+  };
+
+
+   $scope.removeTeamMember = function(teamMember) {
+    var idx = $scope.project.teamMembers.indexOf(teamMember);
+    if(idx >= 0) {
+      $scope.project.teamMembers.splice(idx, 1);
+    }
+    // If we have removed the team member that is currently selected then clear this object
+    if($scope.selTeamMember === teamMember) {
+      $scope.selTeamMember = undefined;
+    }
+  };
+
+
+   $scope.removeTeamMember = function(teamMember) {
+    var idx = $scope.project.teamMembers.indexOf(teamMember);
+    if(idx >= 0) {
+      $scope.project.teamMembers.splice(idx, 1);
+    }
+    // If we have removed the team member that is currently selected then clear this object
+    if($scope.selTeamMember === teamMember) {
+      $scope.selTeamMember = undefined;
+    }
+  };
 }]);

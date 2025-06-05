@@ -6,5 +6,14 @@ angular.module('resources.productbacklog').factory('ProductBacklog', ['mongolabR
     return ProductBacklog.query({projectId:projectId});
   };
 
+    ProductBacklog.forProject = function (projectId) {
+    return ProductBacklog.query({projectId:projectId});
+  };
+    ProductBacklog.forProject = function (projectId) {
+    return ProductBacklog.query({projectId:projectId});
+  };
+    ProductBacklog.forProject = function (projectId) {
+    return ProductBacklog.query({projectId:projectId});
+  };
   return ProductBacklog;
 }]);
